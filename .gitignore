@@ -1,0 +1,80 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.dylib
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing & coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.cache/
+.mypy_cache/
+.pyre/
+.hypothesis/
+
+# Logs
+logs/
+*.log
+
+# -------------------------
+# Environment & secrets
+# -------------------------
+.env
+.env.*
+*.key
+*.pem
+
+# -------------------------
+# App data (keep your docs, ignore indexes/cache)
+# -------------------------
+# Do NOT ignore your source docs in data/docs/
+data/index/
+data/tmp/
+data/cache/
+**/chroma-*.sqlite*
+**/chroma.sqlite*
+**/chroma/
+**/index/*
+
+# -------------------------
+# Editors / OS junk
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+
+# -------------------------
+# Optional: if you add a JS/Next.js dashboard later
+# -------------------------
+node_modules/
+.next/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
