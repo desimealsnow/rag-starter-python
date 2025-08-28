@@ -58,4 +58,3 @@ This project is a **question-answering assistant for your own files**. You put a
 - You ask a real question from your documents and get a **short, correct answer** with **clear citations**.
 - The assistant **abstains** on anything it cannot support with your files.
 
-You’re already there. Next, pick one improvement and ship it! 🚀
