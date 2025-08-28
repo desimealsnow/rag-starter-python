@@ -82,8 +82,3 @@ rag-starter-python/
   README.md
 ```
 
-## Notes
-- This is intentionally lean and readable. When ready, you can add: re-ranker, JSON schema validation, NLI checks, and a Postgres/pgvector store.
-- If you prefer Java later, mirror these layers in Spring Boot (DocumentService, VectorStore, RagService, Controller).
-
-Enjoy building! 🚀
